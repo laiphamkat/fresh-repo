@@ -1,0 +1,157 @@
+Flow ID,Name,Description,Test Steps,Flow Priority,Status
+1,Navigate and Add iPhone to Cart with Color Options,"Navigate to the home page, select an iPhone, choose storage and color options, add to cart, and verify the home page.","Step 1: Navigate to /
+Step 2: Click on link Apple -> Navigate to page 'category page#category/*'
+Step 3: Click on label storageColorOptions (512GB)
+Step 4: Click on button Increased
+Step 5: Click on button Close
+Step 6: Click on link iPhone15Plus -> Navigate to page 'product#product/*'
+Step 7: Click on label colorVariant (Variant512GB)
+Step 8: Click on button Decreased
+Step 9: Click on link ProductPhone -> Navigate to page 'phone category#*/*'
+Step 10: Click on button AddToCart
+Step 11: Click on label 512GB
+Step 12: Click on button Close -> Navigate to page ''
+Step 13: Take full page screenshot as checkpoint
+",High,NEW
+2,Complete Purchase with Detailed Information Entry,"Navigate to home, select an item, add to cart, proceed to checkout, fill in personal details, and complete the order.","Step 1: Navigate to /
+Step 2: Hover over item object
+Step 3: Click on link Apple -> Navigate to page 'category page#category/*'
+Step 4: Click on button addToCart (AddToCart)
+Step 5: Click on label storageColorOptions (512GB2)
+Step 6: Click on label storageColorOptions (Color)
+Step 7: Click on button Buy
+Step 8: Click on link cartNavigation (GoToCart) -> Navigate to page 'cart page#cart'
+Step 9: Click on button ProceedToCheckout -> Navigate to page 'checkout page#checkout/shipping-address'
+Step 10: Hover over div object
+Step 11: Click on input FirstName
+Step 12: Hover over div object2
+Step 13: Enter input value in input FirstName2
+Step 14: Click on input LastName
+Step 15: Hover over div object3
+Step 16: Enter input value in input LastName2
+Step 17: Click on input Address
+Step 18: Hover over div object4
+Step 19: Enter input value in input Address2
+Step 20: Click on input ZipCode
+Step 21: Hover over div object5
+Step 22: Enter input value in input ZipCode2
+Step 23: Click on input City
+Step 24: Hover over div object6
+Step 25: Enter input value in input City2
+Step 26: Click on input State
+Step 27: Hover over div object7
+Step 28: Enter input value in input State2
+Step 29: Click on input Phone
+Step 30: Enter input value in input Phone2
+Step 31: Click on button ContinueToPayment -> Navigate to page 'checkout page#checkout/payment'
+Step 32: Click on button CompleteFinalOrder -> Navigate to page 'thank you#thank-you/*'
+Step 33: Take full page screenshot as checkpoint
+",High,NEW
+4,Remove Item from Cart After Adding Multiple Products,"Navigate to the home page, add multiple items to the cart, remove an item, and verify the home page.","Step 1: Navigate to /
+Step 2: Hover over item object2
+Step 3: Click on link Apple -> Navigate to page 'category page#category/*'
+Step 4: Click on label storageColorOptions (StorageOption1TB)
+Step 5: Click on label storageColorOptions (Color2)
+Step 6: Click on button Buy
+Step 7: Click on button addToCart (AddToCart4)
+Step 8: Click on label storageColorOptions (Storage256GB)
+Step 9: Click on label storageColorOptions (Green2)
+Step 10: Click on button Buy
+Step 11: Click on button ProductAdded
+Step 12: Click on link sortOptions (ByPrice)
+Step 13: Click on button addToCart (AddToCart2)
+Step 14: Click on label storageColorOptions (Storage512GB)
+Step 15: Click on label storageColorOptions (ColorBlueTitanium)
+Step 16: Click on button Buy
+Step 17: Hover over link CartCount3
+Step 18: Click on link cartNavigation (CartCount3Dynamic) -> Navigate to page 'cart page#cart'
+Step 19: Click on button RemoveItem -> Navigate to page ''
+Step 20: Take full page screenshot as checkpoint
+",Medium,NEW
+3,Add Multiple Items to Cart and Checkout Process,"Navigate to the category, add items to the cart, sort options, fill in personal details, and complete the order.","Step 1: Navigate to category/*
+Step 2: Click on button addToCart (AddToCart2)
+Step 3: Click on button Close
+Step 4: Click on button addToCart (AddToCart3)
+Step 5: Click on label storageColorOptions (512GB)
+Step 6: Click on label storageColorOptions (Green)
+Step 7: Click on button Buy
+Step 8: Click on link sortOptions (SortByTitle)
+Step 9: Click on link cartNavigation (CartCount1)
+Step 10: Proceed to checkout and enter email information
+	- Step 1: Click on button ProceedToCheckout2 -> Navigate to page 'checkout info#checkout/info'
+	- Step 2: Hover over div object
+	- Step 3: Click on input Email
+	- Step 4: Enter input value in input Email2
+	- Step 5: Click on button ContinueToShipping
+Step 11: Hover over div object
+Step 12: Click on input FirstName3
+Step 13: Hover over div object2
+Step 14: Enter input value in input FirstName4
+Step 15: Click on input LastName3
+Step 16: Hover over div object3
+Step 17: Enter input value in input LastName4
+Step 18: Click on input Address3
+Step 19: Hover over div object4
+Step 20: Enter input value in input Address4
+Step 21: Click on input ZipCode3
+Step 22: Enter input value in input ZipCode4
+Step 23: Click on div Phone
+Step 24: Hover over div object5
+Step 25: Click on input City3
+Step 26: Hover over div object6
+Step 27: Enter input value in input City4
+Step 28: Click on input ShippingState
+Step 29: Hover over div object7
+Step 30: Enter input value in input State3
+Step 31: Click on input Phone3
+Step 32: Enter input value in input Phone4
+Step 33: Click on button ContinueToPayment2 -> Navigate to page 'checkout page#checkout/payment'
+Step 34: Click on button CompleteOrder -> Navigate to page 'thank you#thank-you/*'
+Step 35: Take full page screenshot as checkpoint
+",Low,NEW
+5,Checkout Process for iPhone with Multiple Color Options,"Navigate to home, select iPhones, add to cart, proceed to checkout, fill in details, and verify completion.","Step 1: Navigate to /
+Step 2: Hover over item object2
+Step 3: Click on link Apple -> Navigate to page 'category page#category/*'
+Step 4: Click on button addToCart (AddToCartUpdate)
+Step 5: Click on label storageColorOptions (512GB)
+Step 6: Click on label storageColorOptions (Storage256GB2)
+Step 7: Click on label storageColorOptions (512GB3)
+Step 8: Click on label storageColorOptions (BlueUpdate)
+Step 9: Click on button Buy2
+Step 10: Click on link iPhone15Updated -> Navigate to page 'product#product/*'
+Step 11: Click on label colorVariant (GBUpdate)
+Step 12: Click on label colorVariant (Blue)
+Step 13: Click on button Buy
+Step 14: Click on link PlaceOrder
+Step 15: Proceed to checkout and enter email information
+	- Step 1: Click on button ProceedToCheckout2 -> Navigate to page 'checkout info#checkout/info'
+	- Step 2: Hover over div object
+	- Step 3: Click on input Email
+	- Step 4: Enter input value in input Email2
+	- Step 5: Click on button ContinueToShipping
+Step 16: Hover over div object
+Step 17: Click on input FirstName5
+Step 18: Hover over div object2
+Step 19: Enter input value in input FirstName5
+Step 20: Click on input LastName5
+Step 21: Hover over div object3
+Step 22: Enter input value in input LastName5
+Step 23: Click on input ZipCode5
+Step 24: Hover over div object4
+Step 25: Enter input value in input ZipCode6
+Step 26: Click on input Address5
+Step 27: Hover over div object5
+Step 28: Enter input value in input Address6
+Step 29: Click on input City3
+Step 30: Hover over div object6
+Step 31: Enter input value in input City4
+Step 32: Click on input ShippingState
+Step 33: Hover over div object7
+Step 34: Enter input value in input State3
+Step 35: Click on input Phone3
+Step 36: Enter input value in input Phone4
+Step 37: Click on button ContinueToFinalPayment
+Step 38: Hover over div object
+Step 39: Click on input FirstName6 -> Navigate to page ''
+Step 40: Take full page screenshot as checkpoint
+",Trivial,NEW
