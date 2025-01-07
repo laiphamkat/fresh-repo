@@ -21,6 +21,27 @@
         <testDataId>Data Files/AI-Generated/TC1-Complete Purchase Workflow from Home Page to Thank You Page-test-data</testDataId>
     </testDataLinks>
     <variable>
+        <defaultValue>'products__item\\ in-stock\\ products__item_3-in-row"]:nth-child(1) [type="button'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>e309b166-325a-46c5-85e4-0db2ae42ade9</id>
+        <masked>false</masked>
+        <name>button_addToCart_class</name>
+    </variable>
+    <variable>
+        <defaultValue>'Hot! New!iPhone 15From:$'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>be31f36a-bec5-49ac-b075-b7fdbbbab978</id>
+        <masked>false</masked>
+        <name>button_addToCart_internalHasText</name>
+    </variable>
+    <variable>
+        <defaultValue>'Proceed to checkout'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>5105c1c5-fdc2-442a-b309-7a5a15eb73f1</id>
+        <masked>false</masked>
+        <name>button_proceedToCheckout_internalRoleButtonName</name>
+    </variable>
+    <variable>
         <defaultValue>'HCM'</defaultValue>
         <description>Input data variable</description>
         <id>8f3227ff-c60f-43d2-a62f-85011603f92e</id>
@@ -104,6 +125,24 @@
         <masked>false</masked>
         <name>label_colorStorageOption_internalText_1</name>
     </variable>
+    <variableLinks>
+        <testDataLinkId>f7d9095b-0b5f-498a-8b55-b4ff69a67812</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>button_addToCart_class</value>
+        <variableId>e309b166-325a-46c5-85e4-0db2ae42ade9</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>f7d9095b-0b5f-498a-8b55-b4ff69a67812</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>button_addToCart_internalHasText</value>
+        <variableId>be31f36a-bec5-49ac-b075-b7fdbbbab978</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>f7d9095b-0b5f-498a-8b55-b4ff69a67812</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>button_proceedToCheckout_internalRoleButtonName</value>
+        <variableId>5105c1c5-fdc2-442a-b309-7a5a15eb73f1</variableId>
+    </variableLinks>
     <variableLinks>
         <testDataLinkId>f7d9095b-0b5f-498a-8b55-b4ff69a67812</testDataLinkId>
         <type>DATA_COLUMN</type>
